@@ -1,9 +1,17 @@
-title: "Портфолио Anastasiia Kharkova"
-email: "your@email.com"
-description: "Портфолио Python backend-разработчика. Примеры проектов: Django, REST API, Telegram-боты."
+title: "Anastasiia Kharkova — Portfolio"
+description: "Портфолио Python backend-разработчика. Django, REST API, Telegram-боты."
+author: "Анастасия Харькова"
+email: "ksipsi@gmail.com"
 baseurl: ""
 url: "https://avkharkova.github.io"
-theme: minima
-collections:
-  projects:
-    output: true
+logo: '/assets/img/logo.png'
+permalink: /:categories/:title/
+paginate: 9
+paginate_path: "/page:num/"
+highlighter: rouge
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+theme: null
