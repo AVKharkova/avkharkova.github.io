@@ -6,8 +6,8 @@ author: "Анастасия Харькова"
 email: "ksipsi@gmail.com"
 baseurl: ""  
 url: "https://avkharkova.github.io"
-logo: 'assets/img/logo.png'
-favicon: 'assets/img/logo.png'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
 permalink: /:categories/:title/
 paginate: 9
 paginate_path: "/page:num/"
