@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Telegram-бот для отслеживания статуса"
-date: 2025-05-29 12:00:00
+date: 2025-05-22 12:00:00
 author: "Анастасия Харькова"
 categories: [Проекты]
 tags: [python, django]

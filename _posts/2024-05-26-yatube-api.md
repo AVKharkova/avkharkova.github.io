@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "API базы данных произведений — фильмы, книги, музыка (командный проект)"
-date: 2025-05-29 12:00:00
+title: "Yatube API — бэкенд для блог-платформы"
+date: 2025-05-26 12:00:00
 author: "Анастасия Харькова"
 categories: [Проекты]
 tags: [python, django]
-image: assets/images/media-database-banner.jpg
+image: assets/images/yatube-api-banner.jpg
 ---
 
 **Yatube API** — классический бэкенд для блог-платформы: публикации, комментарии, подписки, группы.  
@@ -14,9 +14,7 @@ JWT-аутентификация через Djoser, все эндпоинты п
 **Ключевые функции:**
 - CRUD для постов, комментариев, подписок, групп.
 - JWT-аутентификация, поддержка пагинации, работа с изображениями.
-- Соответствие REST и OpenAPI, готов для фронтенда и мобильных приложений.
-
-**Стек:** Python, Django, DRF, Simple JWT.
+- Соответствие REST и OpenAI, готов для фронтенда и мобильных приложений.
 
 
-[Посмотреть на GitHub](https://github.com/AVKharkova/api_yamdb)
+[Посмотреть на GitHub](https://github.com/AVKharkova/the_snake)
