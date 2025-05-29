@@ -1,31 +1,61 @@
 ---
-layout: home
-title: "Портфолио"
-description: "Python backend-разработчик. Примеры проектов: Django, REST API, Telegram-боты."
+layout: default
+title: Home
 ---
 
-<div style="padding:30px 0 20px 0;">
-    <h2>Привет! Я Анастасия.</h2>
-    <p>Python backend-разработчик. Люблю автоматизацию, красивые API и новые вызовы.<br>
-    <a href="mailto:ksipsi@gmail.com">Связаться по email</a> |
-    <a href="https://github.com/AVKharkova" target="_blank">GitHub</a></p>
+{% if page.url == "/" %}
+
+<!-- Featured
+================================================== -->
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Featured</span></h2>
+    </div>
+    <div class="row">
+
+    {% for post in site.posts %}
+
+        {% if post.featured == true %}
+
+            {% include featuredbox.html %}
+
+        {% endif %}
+
+    {% endfor %}
+
+    </div>
+</section>
+
+{% endif %}
+
+<!-- Posts Index
+================================================== -->
+<section class="recent-posts">
+
+    <div class="section-title">
+
+        <h2><span>All Stories</span></h2>
+
+    </div>
+
+    <div class="row listrecent">
+
+        {% for post in paginator.posts %}
+
+        {% include postbox.html %}
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<div class="pointerup"><i class="fa fa-caret-up"></i></div>
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
 </div>
 
-
----
-layout: home
-title: "Портфолио"
-description: "Python backend-разработчик. Современный стек, опыт, гибкость и драйв."
----
-
-## Привет!
-
-Меня зовут Анастасия. Я живу в Красноярске, не перестаю удивляться тому, как Python позволяет воплощать идеи любой сложности — от лаконичных скриптов до масштабных веб-платформ.
-
-Я не из тех, кто учит языки “на бумаге”: в любой профессии для меня важна практика, результат и ценность для команды. Люблю доводить задачи до продакшена и разбираться в деталях, которые делают сервис не просто рабочим, а удобным для пользователя и разработчика.
-
-Быстро учусь и открыта новому.  
-
-Если вам нужен разработчик, для которого backend — это не только код, но и способ создавать ценность, напишите мне!
-
----
