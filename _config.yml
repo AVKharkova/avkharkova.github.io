@@ -1,0 +1,9 @@
+title: "Портфолио Anastasiia Kharkova"
+email: "your@email.com"
+description: "Портфолио Python backend-разработчика. Примеры проектов: Django, REST API, Telegram-боты."
+baseurl: ""
+url: "https://avkharkova.github.io"
+theme: minima
+collections:
+  projects:
+    output: true
