@@ -769,13 +769,14 @@ iframe {
 
 @media (min-width:768px) {
     .jumbotron.fortags {
-        margin-bottom: -50px;
         margin-top: 3rem;
         padding: 0;
         height: 150px;
         border-radius: 0;
         background-image: url(../images/jumbotron.jpg);
-        background-size: cover;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     .jumbotron.fortags .col-md-4 {
