@@ -1,9 +1,9 @@
 ---
 title: "Змейка — классическая аркада на Python"
-cover: /assets/img/snake.png
+cover: /assets/img/snake.jpg
 github: https://github.com/AVKharkova/the_snake
 stack: "Python, Pygame"
-order: 5
+order: 6
 ---
 
 Классическая змейка на Python с использованием Pygame и принципов ООП.

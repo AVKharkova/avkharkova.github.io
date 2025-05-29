@@ -3,7 +3,7 @@ title: "Yatube API — REST API для соцсети блогов"
 cover: /assets/img/yatube-api-banner.jpg
 github: https://github.com/AVKharkova/api_final_yatube
 stack: "Python, Django, DRF, Djoser"
-order: 3
+order: 5
 ---
 
 **Yatube API** — классический бэкенд для блог-платформы: публикации, комментарии, подписки, группы.  
