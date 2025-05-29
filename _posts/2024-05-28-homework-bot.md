@@ -5,7 +5,7 @@ date: 2025-05-29 12:00:00
 author: "Анастасия Харькова"
 categories: [Проекты]
 tags: [python, django]
-image: /assets/img/homework-bot-banner.jpg
+image: assets/images/homework-bot-banner.jpg
 ---
 
 **Homework Bot** — Telegram-бот, который опрашивает API Яндекс Практикума и отправляет сообщения о статусе заданий в Telegram-чат.  

@@ -5,7 +5,7 @@ date: 2025-05-29 12:00:00
 author: "Анастасия Харькова"
 categories: [Проекты]
 tags: [python, django]
-image: /assets/img/yatube-api-banner.jpg
+image: assets/images/yatube-api-banner.jpg
 ---
 
 **Yatube API** — классический бэкенд для блог-платформы: публикации, комментарии, подписки, группы.  
