@@ -17,4 +17,4 @@ JWT-аутентификация через Djoser, все эндпоинты п
 - Соответствие REST и OpenAI, готов для фронтенда и мобильных приложений.
 
 
-[Посмотреть на GitHub](https://github.com/AVKharkova/the_snake)
+[Посмотреть на GitHub](https://github.com/AVKharkova/api_final_yatube)
