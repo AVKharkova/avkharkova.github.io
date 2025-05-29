@@ -1,5 +1,5 @@
 # Site
-name: "Anastasiia Kharkova — Portfolio"
+name: "Anastasiia Kharkova"
 title: "Anastasiia Kharkova — Portfolio"
 description: "Портфолио Python backend-разработчика. Django, REST API, Telegram-боты."
 author: "Анастасия Харькова"
@@ -20,11 +20,11 @@ authors:
     name: Anastasiia Kharkova
     display_name: Anastasiia Kharkova
     avatar: 'assets/images/avatar.png'
-    email: ksipsi@gmail.com
-    web: https://avkharkova.github.io
-    github: https://github.com/AVKharkova
-    telegram: https://t.me/netkann
-    description: "Python backend-разработчик. Люблю автоматизацию, современный стек и задачи с реальным смыслом. Открыта к новым идеям."
+    # email: ksipsi@gmail.com
+    # web: https://avkharkova.github.io
+    # github: https://github.com/AVKharkova
+    # telegram: https://t.me/netkann
+    # description: "Python backend-разработчик. Люблю автоматизацию, современный стек и задачи с реальным смыслом. Открыта к новым идеям."
 
 # Plugins
 plugins:
